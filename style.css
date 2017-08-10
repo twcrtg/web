@@ -1,0 +1,151 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 helvetica, sans-serif;
+  color: #777;
+}
+
+a {
+    color: #fff;
+    border: 0px;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #ccc;
+    border: 0px;
+    text-decoration: none
+}
+
+.bgimg-1 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/PromoPhoto-August2017.jpg");
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  font-size: 34px;
+  letter-spacing: 12px;
+}
+
+.caption span.border2 {
+  background-color: #111;
+  color: #fff;
+  padding: 16px;
+  font-size: 14px;
+  letter-spacing: 8px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 14px helvetica, sans-serif;
+  color: #fff;
+}
+
+.row {
+	white-space: nowrap;
+	padding-top: 20px;
+}
+
+.kevin {
+	width: 260px;
+	height: 260px;
+	border-radius: 12px;
+	background: url(images/kevin.jpg) no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+}
+.kevin:hover {
+	width: 260px;
+	height: 260px;
+	border-radius: 12px;
+	background: url(images/kevin_hover.jpg) no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.sean {
+	width: 260px;
+	height: 260px;
+	border-radius: 12px;
+	background: url(images/sean.jpg) no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+}
+.sean:hover {
+	width: 260px;
+	height: 260px;
+	border-radius: 12px;
+	background: url(images/sean_hover.jpg) no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.burt {
+	width: 260px;
+	height: 260px;
+	border-radius: 12px;
+	background: url(images/burt.jpg) no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+}
+.burt:hover {
+	width: 260px;
+	height: 260px;
+	border-radius: 12px;
+	background: url(images/burt_hover.jpg) no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.ethan {
+	width: 260px;
+	height: 260px;
+	border-radius: 12px;
+	background: url(images/ethan.jpg) no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+}
+.ethan:hover {
+	width: 260px;
+	height: 260px;
+	border-radius: 12px;
+	background: url(images/ethan_hover.jpg) no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.ryan {
+	width: 260px;
+	height: 260px;
+	border-radius: 12px;
+	background: url(images/ryan.jpg) no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+}
+.ryan:hover {
+	width: 260px;
+	height: 260px;
+	border-radius: 12px;
+	background: url(images/ryan_hover.jpg) no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+}
