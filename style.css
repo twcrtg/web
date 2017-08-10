@@ -28,6 +28,18 @@ a:hover {
   height: 100%;
 }
 
+.left-logo {
+  position: absolute;
+  width: 880px;
+  height: 800px;
+  background-image: url("images/left-logo.jpg") no-repeat;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
 .caption {
   position: absolute;
   left: 0;
@@ -47,10 +59,16 @@ a:hover {
 
 .caption span.border2 {
   background-color: #111;
+  min-width: 400px;
   color: #fff;
   padding: 16px;
   font-size: 14px;
   letter-spacing: 8px;
+}
+
+.caption span.player {
+  color: #fff;
+  padding: 20px;
 }
 
 h3 {
