@@ -23,7 +23,7 @@ a:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("images/PromoPhoto-August2017.jpg");
+	background-image: url("images/backgrounds/009.jpg");
 	background-attachment: fixed;
 	height: 100%;
 }
@@ -43,7 +43,7 @@ a:hover {
 .caption {
 	position: absolute;
 	left: 0;
-	top: 50%;
+	top: 45%;
 	width: 100%;
 	text-align: center;
 	color: #000;
@@ -66,9 +66,17 @@ a:hover {
 	letter-spacing: 8px;
 }
 
-.caption span.player {
-	color: #fff;
-	padding: 20px;
+.player {
+	position: absolute;
+	left: 50%
+	right: 50%;
+	top: 2%;
+	width: 100%;
+	padding: 10px;
+	opacity: 0.75;
+	text-align: center;
+	background-color: #363636;
+	z-index: 20;
 }
 
 h3 {

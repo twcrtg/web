@@ -1,92 +1,12 @@
 body, html {
-	height: 100%;
-	margin: 0;
-	font: 400 15px/1.8 helvetica, sans-serif;
-	color: #777;
-}
-
-a {
-    color: #fff;
-    border: 0px;
-    text-decoration: none; 
-}
-
-a:hover {
-    color: #ccc;
-    border: 0px;
-    text-decoration: none
-}
-
-.bgimg-1 {
-	position: relative;
-	opacity: 0.70;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url("images/PromoPhoto-August2017.jpg");
-	background-attachment: fixed;
-	height: 100%;
-}
-
-.left-logo {
-	position: absolute;
-	width: 880px;
-	height: 800px;
-	background-image: url("images/left-logo.jpg") no-repeat;
-	left: 0;
-	top: 10%;
-	width: 100%;
-	text-align: center;
-	color: #000;
-}
-
-.caption {
-	position: absolute;
-	left: 0;
-	top: 20%;
-	width: 100%;
-	text-align: center;
-	color: #000;
-}
-
-.caption span.border {
-	background-color: #111;
-	color: #fff;
-	padding: 20px;
-	font-size: 34px;
-	letter-spacing: 12px;
-}
-
-.caption span.border2 {
-	background-color: #111;
-	min-width: 400px;
-	color: #fff;
-	padding: 16px;
-	font-size: 14px;
-	letter-spacing: 8px;
-}
-
-.player {
-	position: absolute;
-	left: 0;
-	top: 20%;
-	width: 100%;
-	text-align: center;
-	color: #000;
-}
-
-h3 {
-	letter-spacing: 5px;
-	text-transform: uppercase;
-	font: 14px helvetica, sans-serif;
-	color: #fff;
+	background-color: #ccc;
 }
 
 .row {
 	position: absolute;
 	white-space: nowrap;
 	padding-top: 20px;
-	bottom: 10%;
+	top: 20%;
 }
 
 .kevin {
