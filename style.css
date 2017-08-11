@@ -138,13 +138,15 @@ h3 {
 	width: 200px;
 	height: 200px;
 	transform: scale(0.975);
+	border-radius: 12px;
 	background: url(images/arrow.png);
 	display: inline-block;
+	z-index: 60;
 }
 
 .row {
 	white-space: nowrap;
-	padding-top: 20px;
+	padding-top: 30px;
 }
 
 .kevin {
