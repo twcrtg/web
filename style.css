@@ -137,7 +137,7 @@ h3 {
 	position: relative;
 	width: 200px;
 	height: 200px;
-	transform: scale(0.975);
+	transform: scale(0.15);
 	border-radius: 12px;
 	background: url(images/arrow.png);
 	display: inline-block;
