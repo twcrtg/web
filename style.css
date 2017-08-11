@@ -2,7 +2,6 @@ body, html {
 	height: 100%;
 	margin: 0;
 	font: 400 15px/1.8 "Times New Roman", times, serif;
-	color: #777;
 }
 
 a {
@@ -17,31 +16,84 @@ a:hover {
     text-decoration: line-through;
 }
 
+h1 {
+	letter-spacing: 5px;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: : 28px
+	color: #fff;
+}
+
+h2 {
+	letter-spacing: 5px;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 18px
+	color: #fff;
+}
+
+h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 14px helvetica, sans-serif;
+	color: #fff;
+}
+
 .bgimg-1 {
 	position: relative;
-	opacity: 0.70;
+	background: black(0.5);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("images/backgrounds/009.jpg");
+	background-image: url("images/backgrounds/011.jpg");
 	background-attachment: fixed;
 	height: 100%;
+}
+
+.page {
+	position: absolute;
+	background: black(0);
+	width: 100%;
+	text-align: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("images/promo_082017_sq.jpg");
+	background-attachment: fixed;
+	height: 100%;
+}
+
+.bio {
+	position: absolute;
+	left: 0;
+	top: 50px;
+	width: 100%;
+	text-align: center;
+	z-index: 45;
+}
+
+.bio span.header {
+	color: #fff;
+	padding: 20px;
+	padding-right: 20px;
+	text-align: center;
+	font-size: 48px;
+	font-weight: lighter;
+	font-style: italic;
+	letter-spacing: 0px;
 }
 
 .caption {
 	position: absolute;
 	left: 0;
-	top: 42%;
+	top: 22%;
 	width: 100%;
 	text-align: center;
-	color: #000;
 }
 
 .caption span.header {
-	background-color: #111;
 	color: #fff;
 	padding: 20px;
-	padding-right: 20px;
 	text-align: center;
 	font-size: 72px;
 	font-weight: lighter;
@@ -50,34 +102,44 @@ a:hover {
 }
 
 .caption span.subheader {
-	background-color: #111;
 	min-width: 400px;
 	color: #F7F7F7;
-	padding: 14px;
+	padding: 0px;
 	font-size: 12px;
 	font-weight: lighter;
-	letter-spacing: 8px;
+	letter-spacing: 10px;
 }
 
-.player {
+.topbar {
 	position: absolute;
 	left: 50%
 	right: 50%;
-	top: 2%;
+	top: 0px;
 	width: 100%;
-	padding-top: 15px;
-	padding-bottom: 5px;
+	padding-top: 2px;
+	padding-bottom: 0px;
 	opacity: 0.75;
 	text-align: center;
 	background-color: #363636;
 	z-index: 20;
 }
 
-h3 {
-	letter-spacing: 5px;
-	text-transform: uppercase;
-	font: 14px helvetica, sans-serif;
-	color: #fff;
+.player {
+	transform: scale(0.8);
+	z-index: 25;
+}
+
+.bioplayer {
+	z-index: 30;
+}
+
+.arrow {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	transform: scale(0.975);
+	background: url(images/arrow.png);
+	display: inline-block;
 }
 
 .row {
