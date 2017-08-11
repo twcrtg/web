@@ -137,9 +137,9 @@ h3 {
 	position: relative;
 	width: 200px;
 	height: 200px;
-	transform: scale(0.15);
+	transform: scale(0.25);
 	border-radius: 12px;
-	background: url(images/arrow.png);
+	background: url(images/arrow2.png);
 	display: inline-block;
 	z-index: 60;
 }
