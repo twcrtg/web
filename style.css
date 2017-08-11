@@ -74,13 +74,20 @@ h3 {
 
 .bio span.header {
 	color: #fff;
-	padding: 20px;
-	padding-right: 20px;
 	text-align: center;
-	font-size: 48px;
+	font-size: 36px;
 	font-weight: lighter;
 	font-style: italic;
 	letter-spacing: 0px;
+}
+
+.bio span.subheader {
+	min-width: 400px;
+	color: #F7F7F7;
+	padding: 0px;
+	font-size: 12px;
+	font-weight: lighter;
+	letter-spacing: 10px;
 }
 
 .caption {
