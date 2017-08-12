@@ -5,24 +5,6 @@ body, html {
 	color: #fff;
 }
 
-.menu {
-	text-decoration: none;
-	color: #fff;
-}
-
-.menu:hover {
-	text-decoration: line-through;
-}
-
-.attribution {
-	text-decoration: none;
-	color: #fff;
-}
-
-.attribution:hover {
-	text-decoration: underline;
-}
-
 h1 {
 	letter-spacing: 5px;
 	font-weight: lighter;
@@ -46,6 +28,24 @@ h3 {
 	color: #fff;
 }
 
+.menu {
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu:hover {
+	text-decoration: line-through;
+}
+
+.attribution {
+	text-decoration: none;
+	color: #fff;
+}
+
+.attribution:hover {
+	text-decoration: underline;
+}
+
 .splash {
 	position: relative;
 	background: black(0.5);
@@ -66,7 +66,7 @@ h3 {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("images/backgrounds/005.jpg");
+	background-image: url("images/backgrounds/017.jpg");
 	background-attachment: fixed;
 }
 
@@ -106,14 +106,13 @@ a.caption:hover {
 
 .quotes {
 	position: static;
-	left: 0;
 	width: 100%;
 	height: 25%;
 	padding-top: 5%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("images/promo_082017_sq.jpg");
+	background-image: url("images/promo/promo_082017_sq.jpg");
 	background-attachment: fixed;
 	text-align: right;
 	z-index: 99;
@@ -121,22 +120,17 @@ a.caption:hover {
 
 .quotes span.header {
 	color: #fff;
-	padding-top: 20px;
-	padding-right: 25%;
-	font-size: 56px;
+	font-size: 64px;
 	font-weight: lighter;
 	font-style: italic;
-	letter-spacing: 3px;
+	letter-spacing: 0px;
 	line-height: 50px;
 }
 
 .quotes span.footer {
-	position: relative;
-	width: 100%
 	height: 60px;
-	color: #F7F7F7;
-	padding: 20px;
-	margin-left: -10%;
+	color: #fff;
+	margin-right: 3%;
 	font-size: 18px;
 	font-style: italic;
 	font-weight: lighter;
@@ -211,7 +205,7 @@ a.caption:hover {
 	width: 260px;
 	height: 260px;
 	border-radius: 12px;
-	background: url(images/kevin.jpg) no-repeat;
+	background: url(images/buttons/kevin.jpg) no-repeat;
 	display: inline-block;
 	margin-left: 10px;
 }
@@ -219,7 +213,7 @@ a.caption:hover {
 	width: 260px;
 	height: 260px;
 	border-radius: 12px;
-	background: url(images/kevin_hover.jpg) no-repeat;
+	background: url(images/buttons/kevin_hover.jpg) no-repeat;
 	display: inline-block;
 	margin-left: 10px;
 }
@@ -228,7 +222,7 @@ a.caption:hover {
 	width: 260px;
 	height: 260px;
 	border-radius: 12px;
-	background: url(images/sean.jpg) no-repeat;
+	background: url(images/buttons/sean.jpg) no-repeat;
 	display: inline-block;
 	margin-left: 10px;
 }
@@ -236,7 +230,7 @@ a.caption:hover {
 	width: 260px;
 	height: 260px;
 	border-radius: 12px;
-	background: url(images/sean_hover.jpg) no-repeat;
+	background: url(images/buttons/sean_hover.jpg) no-repeat;
 	display: inline-block;
 	margin-left: 10px;
 }
@@ -245,7 +239,7 @@ a.caption:hover {
 	width: 260px;
 	height: 260px;
 	border-radius: 12px;
-	background: url(images/burt.jpg) no-repeat;
+	background: url(images/buttons/burt.jpg) no-repeat;
 	display: inline-block;
 	margin-left: 10px;
 }
@@ -253,7 +247,7 @@ a.caption:hover {
 	width: 260px;
 	height: 260px;
 	border-radius: 12px;
-	background: url(images/burt_hover.jpg) no-repeat;
+	background: url(images/buttons/burt_hover.jpg) no-repeat;
 	display: inline-block;
 	margin-left: 10px;
 }
@@ -262,7 +256,7 @@ a.caption:hover {
 	width: 260px;
 	height: 260px;
 	border-radius: 12px;
-	background: url(images/ethan.jpg) no-repeat;
+	background: url(images/buttons/ethan.jpg) no-repeat;
 	display: inline-block;
 	margin-left: 10px;
 }
@@ -270,7 +264,7 @@ a.caption:hover {
 	width: 260px;
 	height: 260px;
 	border-radius: 12px;
-	background: url(images/ethan_hover.jpg) no-repeat;
+	background: url(images/buttons/ethan_hover.jpg) no-repeat;
 	display: inline-block;
 	margin-left: 10px;
 }
@@ -279,7 +273,7 @@ a.caption:hover {
 	width: 260px;
 	height: 260px;
 	border-radius: 12px;
-	background: url(images/ryan.jpg) no-repeat;
+	background: url(images/buttons/ryan.jpg) no-repeat;
 	display: inline-block;
 	margin-left: 10px;
 }
@@ -287,7 +281,7 @@ a.caption:hover {
 	width: 260px;
 	height: 260px;
 	border-radius: 12px;
-	background: url(images/ryan_hover.jpg) no-repeat;
+	background: url(images/buttons/ryan_hover.jpg) no-repeat;
 	display: inline-block;
 	margin-left: 10px;
 }
